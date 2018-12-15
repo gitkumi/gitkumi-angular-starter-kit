@@ -6,11 +6,6 @@ import { MaterialImportModule } from '../material-import/material-import.module'
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { NgxsModule } from '@ngxs/store';
-import { NgxsRouterPluginModule } from '@ngxs/router-plugin';
-import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
-import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
-
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -30,11 +25,6 @@ const components = [
 @NgModule({
   imports: [
     ...modules,
-    NgxsModule.forRoot([
-    ]),
-    // NgxsRouterPluginModule.forRoot(),
-    // NgxsLoggerPluginModule.forRoot(),
-    // NgxsReduxDevtoolsPluginModule.forRoot()
   ],
   exports: [
     ...modules,

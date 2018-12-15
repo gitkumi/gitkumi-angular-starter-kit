@@ -3,6 +3,5 @@
 
 ## Stuffs
 - Angular Material
-- Ngxs
 - Normalize-scss
 - Sass
