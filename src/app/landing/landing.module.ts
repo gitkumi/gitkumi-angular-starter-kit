@@ -3,9 +3,8 @@ import { NgModule } from '@angular/core';
 import { LandingRoutingModule } from './landing-routing.module';
 
 import { SharedModule } from '../shared/shared.module';
-
-import { LandingComponent } from './landing.component';
-import { HeroSectionComponent } from './components/hero-section/hero-section.component';
+import { LandingComponent } from './components/landing/landing.component';
+import { LandingHeroSectionComponent } from './components/landing-hero-section/landing-hero-section.component';
 
 @NgModule({
   imports: [
@@ -13,8 +12,7 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
     SharedModule
   ],
   declarations: [
-    LandingComponent,
-    HeroSectionComponent
-  ]
+  LandingComponent,
+  LandingHeroSectionComponent]
 })
 export class LandingModule { }
