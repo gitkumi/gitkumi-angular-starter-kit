@@ -6,6 +6,7 @@ import {
 } from './services';
 
 const services = [
+  AuthenticationService
 ];
 
 const modules = [
